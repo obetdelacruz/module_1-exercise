@@ -5,19 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Contact Lobert Recipes</title>
+    <title>Contact Lobert Dela Cruz</title>
   </head>
-
+  <img src="Images/ContactPage.png" alt="Picture of My Contact Page" />
+  <p>
+    After reading this page, please contact me by the form below. I will not
+    reply to technical questions but I am happy to be interviewed by you on your
+    prefered date.
+  </p>
   <body>
-    <header class="customer-form-header">
-      <center>
-        <h1>Customer Information</h1>
-      </center>
-      <nav>
-        <h3><a href="home.html">Home</a></h3>
-      </nav>
-      <p><em>We wanted to know about you.Please fill out this form</em></p>
-    </header>
+    <header class="customer-form-header"></header>
+
     <form action="/server/" method="GET" class="speaker-form">
       <div class="form-row">
         <label for="full-name">Name</label>
@@ -35,19 +33,21 @@
       </div>
 
       <div class="form-row">
-        <label for="servings">Where did you learn about us?</label>
-        <select name="t-shirt" id="t-shirt">
-          <option value="Facebook Page">Facebook Page</option>
-          <option value="Newspaper Advertisement">
-            Newspaper Advertisement
-          </option>
-          <option value="YouTube Advertisement">YouTube Advertisement</option>
-        </select>
+        <label for="Cellphone Number">Cellphone Number</label>
+        <input
+          type="tel"
+          id="Cellphone Number"
+          name="Cellphone Number"
+          placeholder="09184007355"
+        />
       </div>
 
       <div class="form-row">
         <button>Submit</button>
       </div>
     </form>
+    <nav>
+      <h3><a href="index.html">Back to Home Page</a></h3>
+    </nav>
   </body>
 </html>
